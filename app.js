@@ -3,7 +3,7 @@
   Format Indonesia: 62 + nomor tanpa angka 0 di depan.
   Contoh 081234567890 menjadi 6281234567890.
 */
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6282273568688";
 
 const slides = [...document.querySelectorAll(".slide")];
 const dotsContainer = document.getElementById("dots");
