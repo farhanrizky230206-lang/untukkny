@@ -48,11 +48,7 @@ function updateNavigation() {
 prevButton.addEventListener("click", () => showSlide(currentSlide - 1));
 nextButton.addEventListener("click", () => showSlide(currentSlide + 1));
 document.querySelectorAll(".next-slide").forEach(button => {
-  button.addEventListener("click", () => {
-      if (backgroundMusic.paused) {
-          backgroundMusic.play().catch(() => {});
-      }
-      showSlide(currentSlide + 1));
+  button.addEventListener("click", () => showSlide(currentSlide + 1));
 });
 
 document.addEventListener("keydown", event => {
