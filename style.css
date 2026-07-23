@@ -822,3 +822,17 @@ h2 { font-size: clamp(2.8rem, 5.7vw, 5.5rem); }
     touch-action: pan-y;
   }
 }
+   /* ===== Responsive HP ===== */
+   @media (max-width: 768px) {
+
+   .album-caption{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+ }
+
+    .album-grid{
+     margin-top: 20px;
+   }
+
+ }
