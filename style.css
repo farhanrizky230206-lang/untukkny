@@ -836,3 +836,13 @@ h2 { font-size: clamp(2.8rem, 5.7vw, 5.5rem); }
    }
 
  }
+    .slide {
+     overflow-y: auto;
+     scrollbar-width: none;      /* Firefox */
+     -ms-overflow-style: none;   /* IE */
+   } 
+
+    .slide::-webkit-scrollbar {
+     display: none;              /* Chrome, Safari */
+   }
+ }
